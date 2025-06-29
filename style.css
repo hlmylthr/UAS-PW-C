@@ -1,0 +1,123 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  scroll-padding-top: 70px;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.bagian {
+  padding: 80px 0;
+}
+.jumbotron {
+  background: linear-gradient(to right, #1bceff, #16f2ee);
+  color: white;
+  padding: 120px 0;
+  text-align: center;
+}
+footer {
+  background: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+.nav-link {
+  font-weight: 500;
+}
+
+/* Navbar background untuk mode terang */
+.navbar {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+/* Navbar background untuk mode gelap */
+body.dark-mode .navbar {
+  background-color: #222222;
+}
+
+/* Dark mode style */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .bagian.bg-light {
+  background-color: #1e1e1e !important;
+}
+
+body.dark-mode .jumbotron {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #e0e0e0;
+}
+
+body.dark-mode footer {
+  background-color: #222;
+  color: #ccc;
+}
+
+body.dark-mode .p-3.shadow-sm.rounded.bg-white {
+  background-color: #333 !important;
+  color: #ddd;
+}
+
+body.dark-mode .btn-light {
+  background-color: #444;
+  color: #ddd;
+  border: none;
+}
+
+body.dark-mode .btn-primary {
+  background-color: #bb86fc;
+  border-color: #bb86fc;
+  color: #121212;
+}
+
+body.dark-mode .form-control {
+  background-color: #333;
+  color: #ddd;
+  border: 1px solid #555;
+}
+
+body.dark-mode .form-control::placeholder {
+  color: #bbb;
+}
+
+body.dark-mode .form-label {
+  color: #ddd;
+}
+
+body.dark-mode .nav-link {
+  color: #ddd;
+}
+
+body.dark-mode .navbar-brand {
+  color: #fff;
+}
+
+/* bagian komentar */
+#komentar {
+  background-color: #f8f9fa;
+}
+
+#commentList .comment {
+  position: relative;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+#commentList .comment p {
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+#commentList .comment button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}

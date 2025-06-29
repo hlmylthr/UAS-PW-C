@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio hlmy.lthr</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">PEMROGRAMAN WEB C</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigasiBar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navigasiBar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#beranda">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tentang">ABOUT ME</a></li>
+        <li class="nav-item"><a class="nav-link" href="#keahlian">SKILL</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">CONTACT</a></li>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item d-flex align-items-center">
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="darkModeToggle" />
+            <label class="form-check-label" for="darkModeToggle">Mode Gelap</label>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero / Beranda -->
+<section id="beranda" class="jumbotron">
+  <div class="container">
+    <h1 class="display-4">Halo, Saya Helmy Latuheru</h1>
+    <p class="lead">Mahasiswa Informatika | Fakultas Ilmu Komputer</p>
+    <a href="#tentang" class="btn btn-light mt-3">Tentang Saya</a>
+  </div>
+</section>
+
+<!-- Tentang -->
+<section id="tentang" class="bagian bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Tentang Saya</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-2 text-center">
+        <img src="C:\Users\helmy\OneDrive\Dokumen\UAS PW C\Gambar\1.jpg" class="img-fluid rounded-0 img-thumbnail mb-3" alt="Foto Profil" />
+      </div>
+      <div class="col-md-6">
+        <p>Nama saya Helmy Latuheru. Saya adalah mahasiswa program studi Informatika. Saya sedang belajar membuat tampilan website yang menarik dan responsif menggunakan HTML, CSS, JavaScript, dan Bootstrap.</p>
+        <p><strong>Hobi:</strong> Bermain Game, bermain musik, dan belajar Linux.</p>
+        <p><strong>Perkuliahan:</strong> Saat ini saya sedang menempuh semester ke-4 di Universitas Kristen Indonesia Maluku (UKIM).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Keahlian -->
+<section id="keahlian" class="bagian">
+  <div class="container">
+    <h2 class="text-center mb-4">Keahlian Saya</h2>
+    <div class="row text-center">
+      <div class="col-md-3">
+        <div class="p-3 shadow-sm rounded bg-white"><p><strong>HTML, CSS, JavaScript</strong></p>
+        <p>Sedang Belajar memahami html, css, dan js dalam pengembangan web</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-3 shadow-sm rounded bg-white"><p><strong>Basic Linux</strong></p>
+        <p>Memahami Dasar-dasar Kernel Linux</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-3 shadow-sm rounded bg-white"><p><strong>C++</strong></p>
+        <p>Sedang Belajar memahami bahasa pemrograman C++</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-3 shadow-sm rounded bg-white"><p><strong>Design</strong></p>
+        <p>Sedang Belajar memahami dasar-dasar desain grafis</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Kontak -->
+<section id="kontak" class="bagian bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Hubungi saya Melalui Instagram</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <a href="https://www.instagram.com/_hlmy.lthr_/" target="_blank" class="btn btn-primary btn-lg">
+          @_hlmy.lthr_
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Komentar -->
+<section id="komentar" class="bagian bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Komentar</h2>
+    <form id="commentForm">
+      <div class="mb-3">
+        <label for="commentInput" class="form-label">Tulis komentar Anda:</label>
+        <textarea class="form-control" id="commentInput" rows="3" placeholder="Masukkan komentar..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Kirim Komentar</button>
+    </form>
+    <hr />
+    <div id="commentList" class="mt-4">
+      <!-- Komentar akan muncul di sini -->
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 27 Juni 2025</p>
+  <p>Dibuat dengan ❤ oleh Helmy • And Thank Me</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
